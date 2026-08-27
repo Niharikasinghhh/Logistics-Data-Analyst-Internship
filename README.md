@@ -104,3 +104,100 @@ Min-Max Scaling is applied to numerical delivery-time data to prepare it for fut
 ## Expected Outcome
 
 The result of this stage is a clean and structured logistics dataset suitable for exploratory data analysis, KPI calculation, visualization, and predictive modeling in the following stages of the project.
+
+
+
+# Week 3: Advanced Data Analysis and Visualization
+
+## Project Overview
+
+Week 3 focuses on performing Exploratory Data Analysis (EDA) and creating visualizations to understand logistics performance. A hypothetical logistics dataset is used to analyze delivery times, shipment volumes, transportation costs, distances, regions, and delivery status.
+
+The purpose of this analysis is to identify operational patterns, potential bottlenecks, cost drivers, and factors that can affect logistics efficiency.
+
+## Objectives
+
+- Perform Exploratory Data Analysis (EDA)
+- Calculate descriptive statistics and central tendencies
+- Analyze relationships between logistics variables
+- Examine correlations between numerical variables
+- Analyze transportation costs and delivery times
+- Compare logistics performance across different regions
+- Identify potential operational bottlenecks
+- Create visualizations to communicate insights clearly
+
+## Dataset Variables
+
+The hypothetical logistics dataset contains the following variables:
+
+- `shipment_id` – Unique shipment identifier
+- `region` – Operational region
+- `transport_mode` – Mode of transportation
+- `shipment_volume` – Volume of the shipment
+- `distance_km` – Distance travelled
+- `delivery_time_days` – Time taken for delivery
+- `transport_cost` – Cost of transportation
+- `delivery_status` – On-Time or Delayed
+
+## Exploratory Data Analysis
+
+The analysis includes:
+
+- Mean and median calculations
+- Standard deviation
+- Minimum and maximum values
+- Distribution analysis
+- Group-based analysis
+- Correlation analysis
+
+These techniques help understand the overall characteristics of logistics operations and identify relationships between important performance variables.
+
+## Visualizations
+
+The following visualizations are created using Python and Matplotlib:
+
+### 1. Delivery Time Distribution
+
+A histogram is used to examine the distribution of delivery times and identify common delivery ranges and potential delays.
+
+### 2. Transportation Cost by Transport Mode
+
+A bar chart compares average transportation costs across different transport modes.
+
+### 3. Distance vs Transportation Cost
+
+A scatter plot is used to examine the relationship between shipment distance and transportation cost.
+
+### 4. Average Delivery Time by Region
+
+A bar chart compares delivery performance across different operational regions.
+
+### 5. Delivery Status Analysis
+
+A chart compares the number of On-Time and Delayed shipments to evaluate overall delivery performance.
+
+## Key Insights
+
+The analysis helps identify:
+
+- Factors that may influence transportation costs
+- The relationship between distance and logistics expenses
+- Regional differences in delivery performance
+- Potential delivery bottlenecks
+- Overall On-Time and Delayed shipment performance
+
+## Technologies Used
+
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+
+## Files
+
+- `week3_logistics_analysis_visualization.py` – Python script for Week 3 analysis and visualizations
+- `week3_hypothetical_logistics_data.csv` – Hypothetical logistics dataset used for the analysis
+
+## Expected Outcome
+
+This analysis provides insights into logistics performance and supports data-driven decision-making. The results can be used as a foundation for future KPI monitoring, predictive modeling, delivery delay prediction, and logistics optimization.
