@@ -256,6 +256,3 @@ The objective of Week 4 was to develop a predictive model that estimates deliver
 
 The project demonstrates how machine learning can be used to predict delivery delays and support logistics decision-making. The results can help logistics teams identify high-risk shipments, improve delivery planning, allocate resources efficiently, and reduce operational delays.
 
-### Note
-
-The dataset used in this project is simulated and created for educational purposes.
