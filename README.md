@@ -201,3 +201,61 @@ The analysis helps identify:
 ## Expected Outcome
 
 This analysis provides insights into logistics performance and supports data-driven decision-making. The results can be used as a foundation for future KPI monitoring, predictive modeling, delivery delay prediction, and logistics optimization.
+
+
+## Week 4: Predictive Modeling and Optimization in Logistics
+
+### Objective
+
+The objective of Week 4 was to develop a predictive model that estimates delivery time and supports data-driven logistics optimization.
+
+### Work Completed
+
+- Created and used a simulated logistics dataset.
+- Prepared the data for machine learning.
+- Selected relevant features such as:
+  - Region
+  - Transport mode
+  - Shipment volume
+  - Distance
+  - Transport cost
+- Used delivery time as the prediction target.
+- Split the dataset into training and testing sets.
+- Applied preprocessing, including missing-value handling and categorical encoding.
+- Developed and compared:
+  - Linear Regression
+  - Random Forest Regression
+- Evaluated the models using:
+  - Mean Absolute Error (MAE)
+  - Root Mean Squared Error (RMSE)
+  - R² Score
+  - Cross-validation
+- Created visualizations comparing actual and predicted delivery times.
+- Identified high-risk shipments using predicted delivery time.
+- Suggested optimization strategies for route planning, resource allocation, capacity planning, and cost control.
+
+### Files Included
+
+| File | Description |
+|------|-------------|
+| `week4_predictive_modeling_optimization.py` | Python code for preprocessing, model training, evaluation, prediction, and optimization |
+| `week4_logistics_prediction_data.csv` | Simulated logistics dataset used for predictive modeling |
+| `Week_4_Predictive_Modeling_and_Optimization_Report.docx` | Detailed Week 4 project report |
+
+### Technologies Used
+
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Scikit-learn
+- VS Code
+- Git and GitHub
+
+### Outcome
+
+The project demonstrates how machine learning can be used to predict delivery delays and support logistics decision-making. The results can help logistics teams identify high-risk shipments, improve delivery planning, allocate resources efficiently, and reduce operational delays.
+
+### Note
+
+The dataset used in this project is simulated and created for educational purposes.
